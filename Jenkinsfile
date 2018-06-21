@@ -1,10 +1,10 @@
 pipeline {
     agent any
     
-     tools { 
-        maven 'Maven 3.5.3' 
-        docker 'myDocker'
-    }
+   tools{
+maven 'maven 3'
+jdk 'java 8'
+}
     
     stages {
         
